@@ -12,7 +12,7 @@ Here are some key benefits of load balancing:
 
 1. **High Availability**: Load balancers distribute traffic across multiple servers. If one server fails, traffic is automatically redirected to the healthy servers, minimizing downtime.
 
-2. **Scalability**: As traffic grows, you can add more servers to your infrastructure and easily integrate them into the load balancing pool.
+2. **Scalability**: As traffic grows, you can add more servers to your infrastructure and easily integrate them into the load-balancing pool.
 
 3. **Improved Performance**: Load balancers can route requests to the server with the least current load, ensuring that no single server becomes a bottleneck.
 
@@ -20,11 +20,11 @@ Here are some key benefits of load balancing:
 
 **Nginx:**
 
-Nginx (pronounced "engine-x") is a powerful and lightweight open-source web server, reverse proxy server, and load balancer. It's known for its high performance, stability, and rich feature set. Nginx can be used as a load balancer by distributing incoming web traffic across multiple backend servers. Here's how it works:
+Nginx (pronounced "engine-x") is a powerful and lightweight open-source web server, reverse proxy server and load balancer. It's known for its high performance, stability, and rich feature set. Nginx can be used as a load balancer by distributing incoming web traffic across multiple backend servers. Here's how it works:
 
 1. **HTTP Load Balancing**: Nginx can distribute HTTP/HTTPS requests to a pool of backend web servers. It uses various load-balancing algorithms (e.g., round-robin, least connections, IP hash) to determine how requests are distributed.
 
-2. **TCP/UDP Load Balancing**: Nginx can also handle TCP and UDP traffic, making it suitable for load balancing non-HTTP services like databases, mail servers, or custom protocols.
+2. **TCP/UDP Load Balancing**: Nginx can also handle TCP and UDP traffic, making it suitable for load-balancing non-HTTP services like databases, mail servers, or custom protocols.
 
 3. **Health Checks**: Nginx continuously monitors the health of backend servers. If a server becomes unavailable or unresponsive, Nginx will automatically stop sending traffic to that server.
 
@@ -42,10 +42,13 @@ In summary, load balancing is a critical strategy for optimizing the performance
 
 **SETTING UP A BASIC LOAD BALANCER**
 
-We are going to be provisioning two EC2 instances running ubuntu 22.04 and install apache webserver in them. We will open port 8000 to allow traffic from anywhere, and finaly update the default page of the webservers to display their public IP address.
+We are going to be provisioning two EC2 instances running Ubuntu 22.04 and installing an apache webserver in them. We will open port 8000 to allow traffic from anywhere and finally update the default page of the webservers to display their public IP address.
 
-Next we will provision another EC2 instance running ubuntu 22.04, this time we will install Nginx and configure it to act as a load balancer distributing traffic across the webserver.
+Next, we will provision another EC2 instance running Ubuntu 22.04, this time we will install Nginx and configure it to act as a load balancer distributing traffic across the webserver.
 
-**Step 1** Provisioning EC2 Instance
+**Step 1** Provisioning the two EC2 Instance:
+
+![2 EC2 instance](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d5b6222d-5310-497c-a3da-bc2b4d9adb5c)
+
 
 
