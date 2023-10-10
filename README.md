@@ -122,6 +122,8 @@ copy below code:
 
   2. Switch VI Editor to insert mode and paste the HTML file below; before pasting the HTML file, get the public IP or your EC2 instance from AWS Management Console   
      and replace the placeholder test for IP address in the HTML file.
+     IP Address: 16.171.240.215
+     IP Address: 51.20.130.177
 
 	        *<!DOCTYPE html>*
         *<html>*
