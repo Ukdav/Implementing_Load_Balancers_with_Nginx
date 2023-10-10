@@ -104,6 +104,31 @@ copy below code:
 
 ![virtualhost 2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/81004c85-2085-43c5-b36c-2aa8c1620860)
 
+4. Restart Apache2 to load the new configuration using the command below:
+
+*sudo systemctl restart apache2*
+
+* Creating our new html file:
+	
+	1. Open a new index.html file with the command below:
+		
+	*sudo vi index.html*
+
+  2. Switch VI Editor to insert mode and paste the HTML file below; before pasting the HTML file, get the public IP or your EC2 instance from AWS Management Console   
+     and replace the placeholder test for IP address in the HTML file.
+
+	        *<!DOCTYPE html>*
+        *<html>*
+        *<head>*
+            <title>My EC2 Instance</title>
+        *</head>*
+        *<body>*
+            *<h1>Welcome to my EC2 instance</h1>*
+            *<p>Public IP: YOUR_PUBLIC_IP</p>*
+        *</body>*
+        *</html>*
+
+
 
 
 
