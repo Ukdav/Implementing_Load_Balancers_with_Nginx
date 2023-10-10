@@ -108,6 +108,12 @@ copy below code:
 
 *sudo systemctl restart apache2*
 
+![restart server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/7347c50a-480d-4c97-bfd5-e456454fb793)
+
+![restart server 2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/691a90d3-e747-402c-b41d-78ab4b68d9ff)
+
+
+
 * Creating our new html file:
 	
 	1. Open a new index.html file with the command below:
