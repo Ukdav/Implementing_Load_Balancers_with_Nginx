@@ -100,6 +100,12 @@ copy below code:
 
 *sudo vi /etc/apache2/sites-available/000-default.conf*
 
+![virtualhost 1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/78a24ecd-9657-415a-94bd-b5661a864e1c)
+
+![virtualhost 2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/81004c85-2085-43c5-b36c-2aa8c1620860)
+
+
+
 
 
 
