@@ -66,9 +66,22 @@ After the provisioning, of both of the servers and having opened the necessary p
 
 Next is to install the Apache Server:
 
+Using this command: *sudo apt update -y &&  sudo apt install apache2 -y*
+
 ![using the command to install apache](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/fa9eef7c-dec0-44c2-984a-7230baeb0481)
 
 ![server2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/b7f0bd7e-12ea-4389-a739-b7c97fd5ac2c)
+
+To verify that Apache2 is running properly use this command: *sudo systemctl status apache2*
+
+![Ubuntuapache-1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/45d8c39a-e660-4c92-b123-c67a5da5dac9)
+
+![UbuntuApache-2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d6d44e2a-5a12-4078-889c-902009127732)
+
+
+
+
+
 
 
 
