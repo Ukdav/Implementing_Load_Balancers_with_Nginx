@@ -36,3 +36,8 @@ Using Nginx as a load balancer is a common practice in high-traffic web applicat
 
 In summary, load balancing is a critical strategy for optimizing the performance and reliability of web applications, and Nginx is a versatile and powerful tool that can serve as an effective load balancer in your infrastructure.
 
+**ARCHITECTURAL DIAGRAM**
+
+![diagram](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/31308a68-9149-4a76-8428-23fb57279fc0)
+
+
