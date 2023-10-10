@@ -121,20 +121,13 @@ copy below code:
 	*sudo vi index.html*
 
   2. Switch VI Editor to insert mode and paste the HTML file below; before pasting the HTML file, get the public IP or your EC2 instance from AWS Management Console   
-     and replace the placeholder test for IP address in the HTML file.
+     and replace the placeholder test for IP address in the HTML file:
+     
      IP Address: 16.171.240.215
+     
      IP Address: 51.20.130.177
 
-	        <!DOCTYPE html>
-        <html>
-        <head>
-            <title>My EC2 Instance</title>
-        </head>
-        <body>
-            <h1>Welcome to my EC2 instance</h1>
-            <p>Public IP: YOUR_PUBLIC_IP</p>
-        </body>
-        </html>
+![html file](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/53c5c920-47cd-4f21-85ad-8c1fc5287d23)
 
 
 
