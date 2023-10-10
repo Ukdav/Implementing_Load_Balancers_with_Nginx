@@ -40,4 +40,12 @@ In summary, load balancing is a critical strategy for optimizing the performance
 
 ![diagram](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/31308a68-9149-4a76-8428-23fb57279fc0)
 
+**SETTING UP A BASIC LOAD BALANCER**
+
+We are going to be provisioning two EC2 instances running ubuntu 22.04 and install apache webserver in them. We will open port 8000 to allow traffic from anywhere, and finaly update the default page of the webservers to display their public IP address.
+
+Next we will provision another EC2 instance running ubuntu 22.04, this time we will install Nginx and configure it to act as a load balancer distributing traffic across the webserver.
+
+**Step 1** Provisioning EC2 Instance
+
 
