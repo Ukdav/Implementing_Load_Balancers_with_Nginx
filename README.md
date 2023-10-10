@@ -78,6 +78,18 @@ To verify that Apache2 is running properly use this command: *sudo systemctl sta
 
 ![UbuntuApache-2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d6d44e2a-5a12-4078-889c-902009127732)
 
+step 4: configure Apache to server a page showing its public IP:
+
+we will start by configuring the Apache webserver to server content on port 8000 instead of its default which is port 80. then we will create a new index.html file. the file will contain code to display the public IP of the EC2 instance. we will then override the Apache2 web server's default html file with our new file.
+
+* Configuring Apache to server content on port 8000:
+
+1. Use a text editor (e.g VI or NANO) to open the file */etc/apache2/ports.conf
+
+*sudo vi /etc/apache2/ports.conf
+
+2. Add a new listen directive for port 8000: First type i to switch the editor to insert mode. Then add the listen directive after which save your file.
+
 
 
 
