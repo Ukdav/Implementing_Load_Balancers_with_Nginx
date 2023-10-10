@@ -128,7 +128,7 @@ copy below code:
 	        *<!DOCTYPE html>*
         *<html>*
         *<head>*
-            <title>My EC2 Instance</title>
+            *<title>My EC2 Instance</title>*
         *</head>*
         *<body>*
             *<h1>Welcome to my EC2 instance</h1>*
