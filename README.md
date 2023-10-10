@@ -62,6 +62,14 @@ After the provisioning, of both of the servers and having opened the necessary p
 
 ![ssh connect](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/f553ff7d-0ac7-4987-b95e-170516ccf21f)
 
+![via Ssh on terminal](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/26ec63d4-e97e-4837-a8d6-c81c164308ed)
+
+Next is to install the Apache Server:
+
+![using the command to install apache](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/fa9eef7c-dec0-44c2-984a-7230baeb0481)
+
+
+
 
 
 
