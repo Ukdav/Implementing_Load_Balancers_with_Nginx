@@ -84,9 +84,9 @@ we will start by configuring the Apache webserver to server content on port 8000
 
 * Configuring Apache to server content on port 8000:
 
-1. Use a text editor (e.g VI or NANO) to open the file */etc/apache2/ports.conf
+1. Use a text editor (e.g VI or NANO) to open the file */etc/apache2/ports.conf*
 
-*sudo vi /etc/apache2/ports.conf
+*sudo vi /etc/apache2/ports.conf*
 
 2. Add a new listen directive for port 8000: First type i to switch the editor to insert mode. Then add the listen directive after which save your file.
 
