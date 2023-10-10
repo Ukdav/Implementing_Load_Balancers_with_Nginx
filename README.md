@@ -94,6 +94,15 @@ we will start by configuring the Apache webserver to server content on port 8000
 
 ![sudo vi apache1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/ae4f7b58-fc64-4fee-b0de-3634f8c6b683)
 
+3. Next open the file */etc/apache2/sites-available/000-default.conf and change port 80 on the virtualhost to 8000 like the screenshot below:
+
+copy below code:
+
+*sudo vi /etc/apache2/sites-available/000-default.conf*
+
+
+
+
 
 
 
