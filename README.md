@@ -68,6 +68,11 @@ Next is to install the Apache Server:
 
 ![using the command to install apache](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/fa9eef7c-dec0-44c2-984a-7230baeb0481)
 
+![server2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/b7f0bd7e-12ea-4389-a739-b7c97fd5ac2c)
+
+
+
+
 
 
 
