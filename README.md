@@ -54,6 +54,15 @@ Next, we will provision another EC2 instance running Ubuntu 22.04, this time we 
 
 ![editing inbound rules](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/5cf073f7-08ee-473b-ae9f-216ffa98123c)
 
+**Step 3:** Installing APache Webserver
+
+After the provisioning, of both of the servers and having opened the necessary ports, it's time to install Apache software on both servers. to do this, we must first connect to each of the webservers via shh. Then we can now run the commands on the terminal of our web servers
+
+* Connecting to the web server: click on the instance ID at the top of the page and click on connect, you will copy the SSH.
+
+![ssh connect](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/f553ff7d-0ac7-4987-b95e-170516ccf21f)
+
+
 
 
 
