@@ -90,6 +90,13 @@ we will start by configuring the Apache webserver to server content on port 8000
 
 2. Add a new listen directive for port 8000: First type i to switch the editor to insert mode. Then add the listen directive after which save your file.
 
+![Sudo Vi apache2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/b78781f3-aede-400d-a04e-a3a31b533460)
+
+![sudo vi apache1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/ae4f7b58-fc64-4fee-b0de-3634f8c6b683)
+
+
+
+
 
 
 
