@@ -125,16 +125,16 @@ copy below code:
      IP Address: 16.171.240.215
      IP Address: 51.20.130.177
 
-	        *<!DOCTYPE html>*
-        *<html>*
-        *<head>*
-            *<title>My EC2 Instance</title>*
-        *</head>*
-        *<body>*
-            *<h1>Welcome to my EC2 instance</h1>*
-            *<p>Public IP: YOUR_PUBLIC_IP</p>*
-        *</body>*
-        *</html>*
+	        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>My EC2 Instance</title>
+        </head>
+        <body>
+            <h1>Welcome to my EC2 instance</h1>
+            <p>Public IP: YOUR_PUBLIC_IP</p>
+        </body>
+        </html>
 
 
 
