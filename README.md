@@ -46,9 +46,14 @@ We are going to be provisioning two EC2 instances running Ubuntu 22.04 and insta
 
 Next, we will provision another EC2 instance running Ubuntu 22.04, this time we will install Nginx and configure it to act as a load balancer distributing traffic across the webserver.
 
-**Step 1** Provisioning the two EC2 Instance:
+**Step 1:** Provisioning the two EC2 Instance:
 
 ![2 EC2 instance](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d5b6222d-5310-497c-a3da-bc2b4d9adb5c)
+
+**Step 2:** Editing inbound rule and Open port 8000, we will be running our webservers on port 8000 while the load balancers run on port 80. we need to open port 8000 to allow traffic from anywhere. to do this we need to add a rule to the security group of each of our web servers.
+
+![editing inbound rules](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/5cf073f7-08ee-473b-ae9f-216ffa98123c)
+
 
 
 
