@@ -195,7 +195,7 @@ Verify that Nginx is an installer with the below command:
 
 ![edit server IP on nginx](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/5580cfdc-9741-4e6d-854f-636a9caeca15)
 
-Upstream backend-servers define a group of backend servers. The server lines inside the upstream block list the addresses and ports of your backend servers. proxy_pass inside the location blocks sets up the load balancing, passing the request to the back end servers, and the proxy_set_header lines pass necessary headers to the backend servers to correctly handle the requests
+Upstream backend servers define a group of backend servers. The server lines inside the upstream block list the addresses and ports of your backend servers. proxy_pass inside the location blocks sets up the load balancing, passing the request to the back-end servers, and the proxy_set_header lines pass necessary headers to the backend servers to correctly handle the requests
 
 * Test your configuration with the command below
 
