@@ -142,6 +142,8 @@ Overriding the default html file of Apache webserver:
 
 *sudo cp -f ./index.html /var/www/html/index.html*
 
+![ownership and change command](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/e3d3255a-a1e4-4b3b-869f-87e8de1dcd76)
+
 Restart the webserver to load the new configuration using the command below:
 
 *sudo systemctl restart apache2*
@@ -150,6 +152,19 @@ Restart the webserver to load the new configuration using the command below:
 
 
 Go to your browser and type the below IP-Address:
+
+  IP Address: 16.171.240.215:8000
+     
+  IP Address: 51.20.130.177: 8000
+
+  ![server 2 browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/5c1b0521-fbad-4add-a93b-fdfe58b97900)
+
+  ![browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/c0d0ba2c-ace7-4277-b524-9182c75c3e29)
+
+  
+
+
+
 
 
 
