@@ -179,6 +179,10 @@ Verify that Nginx is an installer with the below command:
 
 	*sudo systemctl status nginx*
 
+ ![nignx server runninf](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/2cb277d9-5ebf-4fc5-9a97-5316d17e38ee)
+
+
+
 
   
 
