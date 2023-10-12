@@ -205,9 +205,11 @@ Upstream backend-servers define a group of backend servers. The server lines ins
 
 *     Paste the public IP address of Nginx load Balancer, you should see the same web page served by the webservers.
 
-  ![server 2 browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d524b609-9cf7-4318-9b5b-05ceafa4c63a)
+  ![apache1 server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/34b97460-9ebb-4fe3-b838-d71dbd46a89c)
 
-![browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/e6c1d040-8321-4e12-be3e-be940113b9a9)
+  ![apache2 server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/8a5aac59-291c-43e0-8aa3-900c1e8413ed)
+
+
 
 
 
