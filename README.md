@@ -127,7 +127,13 @@ copy below code:
      
      IP Address: 51.20.130.177
 
-![html file](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/53c5c920-47cd-4f21-85ad-8c1fc5287d23)
+![html file](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/53c5c920-47cd-4f21-85ad-8c1fc5287d23
+
+![configuring public ip in apache-1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/20ea0eeb-bda8-4c62-ac9a-cd475e1e498e)
+
+![configure puclic IP on Apache-2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/20cc34e5-f91b-41af-93b0-f8aebed74a3a)
+
+
 
 
 
