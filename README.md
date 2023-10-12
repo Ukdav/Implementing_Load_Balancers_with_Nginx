@@ -179,7 +179,21 @@ Verify that Nginx is an installer with the below command:
 
 	*sudo systemctl status nginx*
 
- ![nignx server runninf](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/2cb277d9-5ebf-4fc5-9a97-5316d17e38ee)
+ ![sudo status nginx](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/91a50070-4a7e-4afa-9d29-90d023122386)
+
+
+  * Open with Nginx configuration file with the command below:
+
+        *sudo vi /etc/nginx/conf.d/loadbalancer.conf*
+
+![sudo Vi-loadbalncer](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/4ebacfce-4880-4cda-acb5-37953091c949)
+
+* Paste the configuration file below to configure that nginx to act like a load balance. A screenshot of an example config file is shown below: make sure you edit the file and provide necessary information like your server-IP address etc:
+
+![vi editor nignx config](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/88ac497d-ddc8-4730-98f5-eaf2da703d40)
+
+
+
 
 
 
