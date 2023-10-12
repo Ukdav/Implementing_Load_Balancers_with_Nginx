@@ -195,6 +195,22 @@ Verify that Nginx is an installer with the below command:
 
 ![edit server IP on nginx](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/5580cfdc-9741-4e6d-854f-636a9caeca15)
 
+Upstream backend-servers define a group of backend servers. The server lines inside the upstream block list the addresses and ports of your backend servers. proxy_pass inside the location blocks sets up the load balancing, passing the request to the back end servers, and the proxy_set_header lines pass necessary headers to the backend servers to correctly handle the requests
+
+* Test your configuration with the command below
+
+*sudo nginx -t*
+
+![confirm id your config is ok](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/df2c7d07-1a23-4386-bcd6-f49d2cd52f49)
+
+*     Paste the public IP address of Nginx load Balancer, you should see the same web page served by the webservers.
+
+  ![server 2 browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/d524b609-9cf7-4318-9b5b-05ceafa4c63a)
+
+![browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/e6c1d040-8321-4e12-be3e-be940113b9a9)
+
+
+
 
 
 
