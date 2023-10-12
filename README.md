@@ -161,6 +161,25 @@ Go to your browser and type the below IP-Address:
 
   ![browser](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/c0d0ba2c-ace7-4277-b524-9182c75c3e29)
 
+  Configuring Nginx as a Load Balancer
+
+	* Provision a new EC2 instance running Ubuntu 22.04, make sure port 80 is opened to access traffic from anywhere. 
+
+ ![NGINX SERVER](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/61454f78-a913-4397-942b-444ee599377e)
+
+ ![open port 80](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/97eaa889-e0b1-4465-ac44-57438acb4278)
+
+	* Next SSH into the instance.
+
+	* Install Nginx into the instance using the command below:
+	
+	*sudo apt update -y && sudo apt install nginx -y*
+
+Verify that Nginx is an installer with the below command:
+
+	*sudo systemctl status nginx*
+
+
   
 
 
