@@ -132,6 +132,26 @@ copy below code:
 ![configuring public ip in apache-1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/20ea0eeb-bda8-4c62-ac9a-cd475e1e498e)
 
 ![configure puclic IP on Apache-2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/20cc34e5-f91b-41af-93b0-f8aebed74a3a)
+Change the ownership of the index.html file with the command below:
+
+*sudo chown www-data:www-data ./index.html*
+
+Overriding the default html file of Apache webserver:
+
+* Replacing the default html file with our new html file using the command below:
+
+*sudo cp -f ./index.html /var/www/html/index.html*
+
+Restart the webserver to load the new configuration using the command below:
+
+*sudo systemctl restart apache2*
+
+![restart server 2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/69f9455f-4691-4549-b0d9-1b5c28216629)
+
+
+Go to your browser and type the below IP-Address:
+
+
 
 
 
