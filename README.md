@@ -209,6 +209,8 @@ Upstream backend-servers define a group of backend servers. The server lines ins
 
   ![apache2 server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/8a5aac59-291c-43e0-8aa3-900c1e8413ed)
 
+  
+
 
 
 
