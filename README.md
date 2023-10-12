@@ -94,7 +94,7 @@ we will start by configuring the Apache webserver to server content on port 8000
 
 ![sudo vi apache1](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/ae4f7b58-fc64-4fee-b0de-3634f8c6b683)
 
-3. Next open the file */etc/apache2/sites-available/000-default.conf and change port 80 on the virtualhost to 8000 like the screenshot below:
+3. Next open the file */etc/apache2/sites-available/000-default.conf and change port 80 on the virtual host to 8000 like the screenshot below:
 
 copy below code:
 
@@ -111,8 +111,6 @@ copy below code:
 ![restart server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/7347c50a-480d-4c97-bfd5-e456454fb793)
 
 ![restart server 2](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/691a90d3-e747-402c-b41d-78ab4b68d9ff)
-
-
 
 * Creating our new html file:
 	
@@ -208,6 +206,12 @@ Upstream backend servers define a group of backend servers. The server lines ins
   ![apache1 server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/34b97460-9ebb-4fe3-b838-d71dbd46a89c)
 
   ![apache2 server](https://github.com/Ukdav/Implementing_Load_Balancers_with_Nginx/assets/139593350/8a5aac59-291c-43e0-8aa3-900c1e8413ed)
+  
+In conclusion, load balancing with an Nginx server is a crucial strategy for ensuring high availability, scalability, and efficient network traffic distribution in modern web applications. Nginx's robust and flexible load balancing capabilities help optimize resource utilization, minimize downtime, and enhance overall performance.
+
+By intelligently distributing incoming requests across multiple backend servers, Nginx can handle increased traffic loads, reduce response times, and provide fault tolerance. It's a valuable tool for managing server resources, maximizing uptime, and enhancing user experiences.
+
+In summary, Nginx's load-balancing capabilities empower organizations to build resilient and high-performance web services, making it an essential component in the toolkit of any IT professional or system administrator responsible for maintaining a reliable and responsive web infrastructure.
 
   
 
